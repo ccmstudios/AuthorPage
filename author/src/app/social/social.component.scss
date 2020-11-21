@@ -1,0 +1,37 @@
+
+
+    .grid{
+        background: lightblue;
+    padding: 1em 50px;
+    margin-right: 10px;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+
+    }
+
+    .facebook{
+        background-image: url(../../assets/images/facebook.png);
+        background-size: 300px;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    .instagram{
+        background-image: url(../../assets/images/Instagram.png);
+        background-size: 300px;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    .twitch{
+        background-image: url(../../assets/images/twitch.png);
+        background-size: 300px;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+.twitter{
+    background-image: url(../../assets/images/twitter.png);
+    background-size: cover;
+    height: auto;
+}

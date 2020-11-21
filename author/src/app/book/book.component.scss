@@ -1,0 +1,40 @@
+@mixin images{
+    width:500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    transform: scale(0.8);
+  transition: transform 0.5s ease;
+    &:hover{
+        transform: scale(1);
+        transition: ease-in 0.7s;
+    }
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+img{
+
+    @include images();
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    color:white;
+}
