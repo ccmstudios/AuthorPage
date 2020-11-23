@@ -14,7 +14,7 @@ body{
     background-color: gray;
 }
 header{
-    background: linear-gradient(45deg, black, gray);
+    background: linear-gradient(45deg, gray, indigo);
     // padding: 1em .5em;
     display: flex;
     list-style: none;
@@ -30,7 +30,7 @@ li{
     font-size: 30px;
     margin: 0;
     &:hover{
-        background: lighten(silver, 5%);
+        background: lighten(purple, 5%);
     }
     a{
         color: white;
