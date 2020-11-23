@@ -1,38 +1,66 @@
 
 
-    li{
-        background: lightblue;
-    padding: 50px 50px;
-    margin-right: 10px;
-    width: 100px;
-    height: 300px;
-    margin-bottom: 1em;
-    display: flex;
+   h1{
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:0;
+    margin-right:0;
+   }
+   
+   ul{
+       height: 2000px;
+       align-items: center;
+       justify-content: center;
+       margin-left:0;
+       margin-right:0;
+       margin-bottom:0px;
+       margin-top: 0px;
+   }
+   
+   li{
+        background-image: url(../../assets/images/Instagram.png);
+    padding: 130px 130px 130px 130px;
+    width: 250px;
+    height: 200px;
+    margin: 1em;
+    display: inline-block;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left:0;
+    margin-right:0;
+    
 
     }
 
     .facebook{
         background-image: url(../../assets/images/facebook.png);
-        background-size: 100px;
+        background-size: 200px;
         background-repeat: no-repeat;
-        height: auto;
+        height: 100px;
+        transition: transform 0.5s ease;
+        &:hover{
+            transform: scale(1);
+            transition: ease-in 0.7s;
+            background:darken 10% url(../../assets/images/facebook.png) ;
+        }
     }
     .instagram{
         background-image: url(../../assets/images/Instagram.png);
-        background-size: 100px;
+        background-size: 200px;
         background-repeat: no-repeat;
-        height: auto;
+        // height: auto;
     }
     .twitch{
         background-image: url(../../assets/images/twitch.png);
-        background-size: 100px;
+        background-size: 270px;
         background-repeat: no-repeat;
-        height: auto;
+        height: 100px;
     }
 .twitter{
     background-image: url(../../assets/images/twitter.png);
-    background-size: 100px;
+    background-size: 200px;
     background-repeat: no-repeat;
-    height: auto;
+    height: 300px;
 }

@@ -9,13 +9,15 @@
 }
 
 body{
-    background-image: linear-gradient(black, blue);
+    background-color: gray;
 }
 header{
     background: black;
     padding: 1em .5em;
     display: flex;
     list-style: none;
+    justify-content: center;
+    justify-items: center;
     ul{
         display: flex;
         list-style: none;
@@ -24,9 +26,11 @@ li{
     padding: 0px 40px;
     font-size: 30px;
     margin: 0;
-    color:white;
     &:hover{
         background: lighten(gray, 5%);
+    }
+    a{
+        color: white;
     }
 }
 }
