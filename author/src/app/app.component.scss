@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+
 @mixin images{
     width:500px;
     height: auto;
@@ -12,8 +14,8 @@ body{
     background-color: gray;
 }
 header{
-    background: black;
-    padding: 1em .5em;
+    background: linear-gradient(45deg, black, gray);
+    // padding: 1em .5em;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -23,11 +25,12 @@ header{
         list-style: none;
 margin: 0;    
 li{
+    font-family: 'Big Shoulders Stencil Display', cursive;
     padding: 0px 40px;
     font-size: 30px;
     margin: 0;
     &:hover{
-        background: lighten(gray, 5%);
+        background: lighten(silver, 5%);
     }
     a{
         color: white;
@@ -35,6 +38,7 @@ li{
 }
 }
 }
+
 
 img{
 
